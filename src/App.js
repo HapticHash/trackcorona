@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './App.css';
+import './App.css'
 import InfoBox from './InfoBox'
 import Map from './Map'
 import Table from './Table'
@@ -8,7 +8,6 @@ import { sortData } from './utils'
 import { MenuItem, FormControl, Select, Card, CardContent, Typography } from "@material-ui/core";
 import 'leaflet/dist/leaflet.css'
 
-
 function App() {
   const [countries, setCountries] = useState([])
   const [country, setCountry] = useState("worldwide")
@@ -16,6 +15,7 @@ function App() {
   const [tableData, setTableData] = useState([])
   const [mapCenter, setMapCenter] = useState({ lat: 34.80746, lng: -40.4796})
   const [mapZoom, setMapZoom] = useState(3)
+  const [mapCountries, setMapCountries] = useState([])
 
   useEffect(() => {
     fetch("https://disease.sh/v3/covid-19/all")
@@ -37,6 +37,7 @@ function App() {
 
           const sortedData = sortData(data)
           setTableData(sortedData)
+          setMapCountries(data)
           setCountries(countries)
         })
     }
@@ -86,7 +87,9 @@ function App() {
         </div>
 
         <div className="app__map">
-          <Map 
+          <Map
+            style={{ height: "100%", width: "100%" }}
+            countries= {mapCountries}
             center= {mapCenter}
             zoom= {mapZoom}
           />
