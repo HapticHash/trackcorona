@@ -3,14 +3,20 @@
 }
 
 body {
-  background-color: #f5f6fa;
+  background-color: #fafafa;
 }
 
 .app {
   display: flex;
   justify-content: space-evenly;
-  background-color: #f5f6fa;
+  background-color: #fafafa;
   padding: 20px;
+}
+
+.app__title {
+  font-size: 2rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
 }
 
 .app__dropdown {
@@ -20,13 +26,7 @@ body {
 .app__header {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
   justify-content: space-between;
-}
-
-.app__header > h1 {
-  color: #fc3c3c;
-  font-size: 2rem;
 }
 
 .app__stats {
@@ -36,13 +36,19 @@ body {
 
 .app__left {
   flex: 0.9;
+  margin-top: -10px;
 }
 
 .app__information > h3 {
   color: #6a5d5d;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
+}
+
+.app__right {
+  margin-top: 5px;
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5) !important;
 }
 
 .app__information > h3:last-of-type {

@@ -1,33 +1,35 @@
 .infoBox {
-    flex: 1;
-  }
-  
-  .infoBox:not(:last-child) {
-    margin-right: 10px;
-  }
-  
-  .infoBox--selected {
-    border-top: 10px solid greenyellow;
-  }
-  
-  .infoBox--red {
-    border-color: red;
-  }
-  
-  .infoBox__cases--green {
-    color: lightgreen !important;
-  }
-  
-  .infoBox__cases {
-    color: #cc1034;
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .infoBox__total {
-    color: #6c757d;
-    font-weight: 700 !important;
-    font-size: 0.8rem !important;
-    margin-top: 15px !important;
-  }
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5) !important;
+  border-radius: 0.8em !important;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 30px;
+}
+
+.infoBox--selected {
+  border-top: 10px solid #4caf50;
+}
+
+.infoBox--red {
+  border-color: #e53935;
+}
+
+.infoBox__cases--green {
+  color: #4caf50 !important;
+}
+
+.infoBox__cases {
+  color: #e53935;
+  font-weight: 700;
+  font-size: 1.95rem;
+}
+
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.9rem !important;
+  margin-top: 10px !important;
+}
