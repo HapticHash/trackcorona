@@ -1,12 +1,12 @@
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+# COVID-19 Tracker
 
-[![Track Corona][project-screenshot]](https://min.gitcdn.link/repo/HapticHash/trackcorona/master/assets/screenshot1.PNG)
+![Track Corona](https://min.gitcdn.link/repo/HapticHash/trackcorona/master/assets/screenshot1.PNG)
 
-[![Track Corona][project-screenshot]](https://min.gitcdn.link/repo/HapticHash/trackcorona/master/assets/screenshot2.PNG)
+![Track Corona](https://min.gitcdn.link/repo/HapticHash/trackcorona/master/assets/screenshot2.PNG)
 
-[![Track Corona][project-screenshot]](https://min.gitcdn.link/repo/HapticHash/trackcorona/master/assets/screenshot3.PNG)
+![Track Corona](https://min.gitcdn.link/repo/HapticHash/trackcorona/master/assets/screenshot3.PNG)
 
 ### What is Coronavirus?
 
