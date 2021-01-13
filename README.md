@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+<!-- ABOUT THE PROJECT -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Project
 
-## Available Scripts
+[![Track Corona][project-screenshot]](https://min.gitcdn.link/repo/HapticHash/trackcorona/master/assets/screenshot1.PNG)
 
-In the project directory, you can run:
+[![Track Corona][project-screenshot]](https://min.gitcdn.link/repo/HapticHash/trackcorona/master/assets/screenshot2.PNG)
 
-### `yarn start`
+[![Track Corona][project-screenshot]](https://min.gitcdn.link/repo/HapticHash/trackcorona/master/assets/screenshot3.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### What is Coronavirus?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.
 
-### `yarn test`
+### How it spreads?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces.
 
-### `yarn build`
+You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### What is our Project?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Our application provides live statistics of coronavirus tracking the number of confirmed cases, recovered patients, and death toll due to the COVID-19 coronavirus globally.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With
 
-### `yarn eject`
+To built this project. I have used following technologies :
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Material UI](https://material-ui.com/)
+- [React JS](https://reactjs.org/)
+- [Leaflet](https://leafletjs.com/)
+- [Chart JS](https://www.chartjs.org/)
+- [Numeral JS](http://numeraljs.com/)
+- [Firebase](https://firebase.google.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Getting Started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Are you interested in setting up this project locally?
+To get a local copy up and running follow these simple steps.
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+So the list things that you will need to use are :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [npm / node](https://nodejs.org/en/) [intall node js from the link or update your npm using this command]
 
-### Code Splitting
+```sh
+npm install npm@latest -g
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
 
-### Analyzing the Bundle Size
+1. Clone the repo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```sh
+git clone https://github.com/HapticHash/trackcorona.git
+```
 
-### Making a Progressive Web App
+2. Install NPM packages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+npm install
+```
 
-### Advanced Configuration
+3. Run it locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```JS
+npm start
+```
 
-### Deployment
+<!-- CONTRIBUTING -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `yarn build` fails to minify
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Harshit K. Singh - [@haptichash](https://twitter.com/haptichash) - harshitks2203@gmail.com
+
+Project Link: [https://github.com/HapticHash/trackcorona](https://github.com/HapticHash/trackcorona)
